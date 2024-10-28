@@ -13,7 +13,7 @@ setup(
     url="https://github.com/stitchfix/colornamer",
     packages=find_packages(),
     package_data={"static": ["color_hierarchy.json", "color_hierarchy.csv"],},
-    install_requires=["importlib_resources", "numpy", "scikit-image==0.20.1",],
+    install_requires=["importlib_resources", "numpy", "scikit-image==0.20.0",],
     python_requires=">=3.7",
     author="Dan Tasse",
     author_email="dan.tasse@stitchfix.com"
